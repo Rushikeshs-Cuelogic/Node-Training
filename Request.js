@@ -7,6 +7,7 @@ var option = {
     path: "/wiki/George_Washington",
     method: "GET"
 };
+
 var responseBody = "";
 var req = https.request(option, function (res) {
     console.log(`Server status:${res.statusCode}`);
